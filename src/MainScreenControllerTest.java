@@ -40,7 +40,7 @@ public class MainScreenControllerTest {
     @Test
     void testAudioSourceDisplaysCorrectly() {
         // Arrange: define the expected audio source
-        String expectedSource = "Bluetooth";
+        String expectedSource = "USB";
 
         // Act: update the audio source
         controller.setAudioSource(expectedSource);
