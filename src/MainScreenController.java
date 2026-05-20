@@ -14,7 +14,7 @@ public class MainScreenController {
         this.navigationStatus = "No Route";
     }
 
-    // Sets the current audio source (e.g., "Radio", "Bluetooth", "USB").
+    // Sets the current audio source ("Radio" or "USB").
 
     public void setAudioSource(String source) {
         if (source == null || source.isEmpty()) {
@@ -42,7 +42,7 @@ public class MainScreenController {
         return volumeLevel;
     }
 
-    //Sets the navigation status (e.g., "En Route to Downtown", "Arrived").
+    //Sets the navigation status ("En Route to Downtown" or "Arrived").
 
     public void setNavigationStatus(String status) {
         if (status == null || status.isEmpty()) {
